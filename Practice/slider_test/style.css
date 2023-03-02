@@ -1,0 +1,35 @@
+
+.slyder_conteiner{
+    margin: 0 auto;
+    width: 90vw;
+    position: relative;
+    overflow: hidden;
+    padding: 10px 0;
+    background-color: #444;
+    height: 100px;
+    border: 2px solid black;
+}
+
+#slyder_main_item{
+    width: 300%;
+    position: absolute;
+    display: flex;
+    flex-wrap: nowrap;
+    left: 0%;
+    transition: .2s;
+}
+.slider_item{
+    margin: 0 10px;
+    height: 100px;
+    width: 100%;
+}
+
+.green{
+    background-color: green;
+}
+.yelow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}

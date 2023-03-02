@@ -1,0 +1,507 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+} h1, h2, h3, h4, h5, h6 {
+    font-family: 'Tinos', serif;
+}
+.btn{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    background-color: #FF7400;
+    padding: 14px 18px;
+}
+.change_color{
+    color: #BC9060;
+}
+
+
+/* Header start */
+
+.container{
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 1138px;
+}
+
+.header{
+    background-image: url(img/header_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+.header_content{
+    display: flex;
+    align-items: center;
+}
+.header_line{
+    margin-bottom: 260px;
+    justify-content: space-between;
+    color: #fff;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.header_link{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-style: 14px;
+
+    margin-right: 25px;
+}
+
+.header_btn_link{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    background-color: #FF7400;
+    padding: 14px 18px;
+}
+
+.cart{
+    position: relative;
+    margin-right: 32px;
+    padding-left: 36px;
+    padding-right: 20px;
+    border-right: 1px solid #fff;
+    height: 50px;
+}
+.cart_img{
+    position: absolute;
+    top: 18px;
+    right: 20px;
+}
+
+.phone_number{
+    font-weight: 700;
+    font-size: 18px;
+}
+.phone_text{
+    font-weight: 400;
+    font-size: 14px;
+}
+.phone_holder{
+    display: flex;
+    align-items: center;
+    margin-right: 45px;
+}
+
+.header_content_holder{
+    width: 482px;
+    text-align: center;
+}
+.header_title{
+    color: #D67E35;
+    font-weight: 400;
+} .big{
+    font-size: 50px;
+} .very_big{
+    font-size: 80px;
+}
+
+.header_title_text_with_line{
+    margin-top: 8px;
+    margin-bottom: 32px;
+    position: relative;
+}
+.header_title_text{
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+}
+.line_first{
+    border: #fff solid 1px;
+    position: absolute;
+    width: 60px;
+    top: 50%;
+    left: 80px;
+}
+.line_second{
+    border: #fff solid 1px;
+    position: absolute;
+    width: 60px;
+    top: 50%;
+    right: 80px;
+}
+
+/* Header end */
+
+/* Dignity start */
+
+.dignity_cards{
+    margin-top: -100px;
+    margin-bottom: 166px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.dignity_card_item{
+    background: #fff;
+    padding-bottom: 20px;
+    padding-top: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 349px;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+}
+.dignity_ico{
+    margin-bottom: 4px;
+}
+.dignity_card_title{
+    font-weight: 400;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+.dignity_card_disc{
+    text-align: center;
+    color: #656363;
+    font-family: 'Tinos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+}
+
+/* Dignity end */
+
+/* Story start */
+
+.story_content{
+    margin-bottom: 182px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+
+.story_title_dif_color{
+    color: #D67E34;
+}
+.story_desc{
+    margin-bottom: 85px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #656363;
+}
+
+.story_text{
+    width: 444px;
+}
+.story_title{
+    margin-bottom: 26px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 54px;
+}
+.story_menu_stats{
+    display: flex;
+    justify-content: space-between;
+}
+.stats_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.stats_number{
+    font-weight: 400;
+    font-size: 40px;
+    color: #BC9060;
+}
+.category_product{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.story_imgs{
+    position: relative;
+}
+.story_img_item_1{
+    position: absolute;
+    top: 49px;
+    left: 0px;
+    box-shadow: 20px 0px 30px 3px rgba(0, 0, 0, 0.5);
+    z-index: 15;
+}
+.story_img_item_2{
+    position: absolute;
+    top: -16px;
+    left: 190px;
+    z-index: 10;
+}
+.story_img_item_3{
+    position: absolute;
+    top: 182px;
+    left: 285px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    z-index: 15;
+}
+.retangle{
+    position: absolute;
+    width: 212px;
+    height: 164px;
+    background: #FFE8D0;
+    left: 285px;
+    top: 18px;
+}
+
+/* Story end */
+
+/* Party start */
+
+.party{
+    background-image: url(img/party-bg.jpg);
+    height: 357px;
+    margin-bottom: 135px;
+}
+.party_contant{
+    padding-top: 80px;
+    padding-bottom: 104px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.party_text{
+    max-width: 601px;
+}
+.party_title{
+    margin-bottom: 22px;
+    color: #D67E34;
+    font-weight: 400;
+    font-size: 52px;
+}
+.party_desc{
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+/* Party end */
+
+/* Food start */
+
+.food_content{
+    margin-bottom: 150px;
+}
+.food_demo{
+    display: flex;
+    flex-direction: row;
+}
+.food_item{
+    align-items: center;
+    margin-bottom: 29px;
+    display: flex;
+}
+.food_item_mini_img{
+    margin-right: 30px;
+}
+.food_main_img{
+    margin-right: 20px;
+}
+.food_title{
+    margin-bottom: 145px;
+    font-weight: 400;
+    font-size: 54px;
+    text-align: center;
+}
+.food_item_title{
+    font-weight: 400;
+    font-size: 26px;
+}
+.food_price{
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-size: 26px;
+}
+.food_title_dif_color{
+    color: #D67E34;
+}
+
+/* Food end */
+
+/* Menu start */
+
+.menu{
+    height: 1036px;
+    background-image: url(img/menu-bg.jpg);
+}
+.menu_collection{
+    display: flex;
+    justify-content: space-between;
+}
+
+.recomended::after{
+    padding: 7px 11px;
+    background: #D67E34;
+    top: 0;
+    left: 0;
+    position: absolute;
+    content: "RECOMENDED";
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.menu_title{
+    padding-top: 100px;
+    margin-bottom: 138px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 54px;
+    color: #fff;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+}
+.menu_item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 0 29px 0;
+    width: 350px;
+    position: relative;
+    background-color: #fff;
+}
+.menu_item_pic{
+    width: 225px;
+    position: relative;
+    margin-bottom: 22px;
+}
+.menu_item_price{
+    font-family: 'Cookie', cursive;
+    font-weight: 400;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: #D67E34;
+    display: flex;
+    width: 86px;
+    height: 86px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: #fff solid 7px;
+    border-radius: 50%;
+}
+.menu_item_title{
+    font-weight: 400;
+    font-size: 26px;
+    margin-bottom: 17px;
+}
+.menu_item_desc{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.menu_item_btn{
+    padding: 14px 0;
+}
+.menu_item_btn_link{
+    background: #D67E34;
+    padding: 14px 68px;
+}
+
+/* Menu end */
+
+/* Revievs start */
+
+.revievs{
+    background-color: #E5E5E5;
+}
+.revievs_content{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.revievs_text{
+    max-width: 920px;
+    padding-top: 104px;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+}
+.revievs_pic{
+    margin-bottom: 20px;
+}
+.revievs_profession{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.revievs_name{
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.revievs_counter{
+    padding-bottom: 108px;
+}
+
+/* Revievs end */
+
+/* Gallery start */
+
+.gallery_title{
+    margin-top: 101px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 54px;
+}
+.gallery_photo_content{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+.grid_2_4{
+    grid-column-start: span 2;
+}
+.gallery{
+    position: relative;
+    margin-bottom: 100px;
+}
+.gallery_red_line_right{
+    width: 14%;
+    right: 0;
+    top: 120px;
+    position: absolute;
+    background-color: #FF0000;
+    height: 100px;
+}
+.gallery_red_line_left{
+    width: 14%;
+    top: 120px;
+    position: absolute;
+    background-color: #FF0000;
+    height: 100px;
+}
+
+/* Gallery end */
+
+/* Cooks start */
+
+.cooks{
+    padding-bottom: 100px;
+}
+.cooks_title{
+    text-align: center;
+    font-weight: 400;
+    font-size: 54px;
+    margin-bottom: 107px;
+}
+.cooks_photo_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Cooks end */
+
+footer{
+    height: 732px;
+    width: 100%;
+    background-image: url(img/footer-img.jpg);
+}
