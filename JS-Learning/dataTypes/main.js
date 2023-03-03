@@ -80,5 +80,43 @@ function sumInput() {
     return sum;
 }
 
-let a = sumInput();
-console.log(a);
+function camelize(str) {
+    let arr = str.split("-");
+
+    arr = arr.map((item, index) => {
+        if (index > 0) return (item[0].toUpperCase() + item.slice(1))
+        else return item;
+    });
+
+    str = arr.join("");
+    return str;
+}
+
+function filterRange(arr, a, b) {
+    let result = [];
+
+    arr.forEach(item => {
+        if (item >= a && item <= b) result.push(item)
+    });
+
+    return result;
+}
+
+function filterRangeInPlace(arr, a, b) {
+    for (let i = 0; i < arr.length; i++) {
+        let val = arr[i];
+
+        if (val < a || val > b) {
+            arr.splice(i, 1);
+            i--;
+        }
+    }
+}
+
+function sortLoss(arr) {
+    arr.sort((a, b) => a -b);
+}
+
+function copySorted(arr) {
+    return arr.slice().sort();
+}
