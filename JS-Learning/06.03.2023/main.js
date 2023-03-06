@@ -132,5 +132,28 @@ function aclean(arr) {
 // alert(str.split("").sort().join(""))
 // alert(str)
 
-let arr = ["nap", "teachers", "cheaters", "PAN", "ear", "era", "hectares"];
-aclean(arr)
+
+
+
+
+// Obj.keys/values/entries
+
+function sumSalaries(obj) {
+    let sum = 0;
+    for (let i of Object.values(obj)) {
+        sum += i;
+    }
+    return sum;
+}
+
+function count(obj) {
+    return Object.keys(obj).length;
+}
+
+let salaries = {
+    "John": 100,
+    "Pete": 300,
+    "Mary": 250
+  };
+  
+  alert( sumSalaries(salaries) );
