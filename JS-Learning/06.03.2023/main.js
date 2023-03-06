@@ -1,3 +1,5 @@
+// Arrays exercises
+
 function camelize(str) {
     return str.split("-").map((item, index) => index == 0 ? item : item[0].toUpperCase() + item.slice(1)).join('');
 }
@@ -83,9 +85,6 @@ function groupById(arr) {
 
 
 
-
-
-
 // let vasya = { name: "Вася", age: 25 };
 // let petya = { name: "Петя", age: 30 };
 // let masha = { name: "Маша", age: 28 };
@@ -106,3 +105,32 @@ function groupById(arr) {
 //     fullName: `${user.name} ${user.surname}`,
 //     id: user.id
 // }));
+
+
+
+
+
+
+
+// MAP/SET exercises
+
+function unique(arr) {
+    return Array.from(new Set(arr));
+}
+
+function aclean(arr) {
+    let map = new Map();
+    for (let word of arr) {
+        let sorted = word.toLowerCase().split("").sort().join("");
+        map.set(sorted, word);
+    }
+
+    return Array.from(map.values());
+}
+  
+// let str = "jopa";
+// alert(str.split("").sort().join(""))
+// alert(str)
+
+let arr = ["nap", "teachers", "cheaters", "PAN", "ear", "era", "hectares"];
+aclean(arr)
