@@ -120,3 +120,17 @@ function sortLoss(arr) {
 function copySorted(arr) {
     return arr.slice().sort();
 }
+
+
+
+
+// Data
+
+let feb20 = new Date("2012-02-20T02:12");
+
+function getWeekDay(date) {
+    let days = ['Sunday', 'Monday', 'Tusday', 'Wendsday', 'Forthday', 'Friday', 'Saturday'];
+    return days[date.getDay()];
+}
+
+alert(getWeekDay(feb20))
